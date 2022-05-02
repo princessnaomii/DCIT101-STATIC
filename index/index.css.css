@@ -1,0 +1,61 @@
+*{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-decoration: none;
+
+}
+.wrapper{
+	background : url(languagepic..jpg) no-repeat;
+	background-size: cover;
+	height : 100vh;
+}
+
+.header{
+	width: 100%;
+	height: 150px;
+	background-color: black;
+	display: block;
+}
+.innerheader{
+	background-color: black;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.logo{
+	height:100% ;
+	display: table;
+	float: left;
+	color: white;
+}
+.logo h1{
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 80px;
+	font-family: cursive;
+	font-weight: 90;
+}
+.navigation{
+	float: right;
+	height: 100%;
+}
+.navigation a{
+	height: 100%;
+	display: table-cell;
+	float: left;
+	padding: 0px 20px;
+	color: white;
+	font-family: cursive;
+}
+.link{
+	font-size: 20px;
+}
+.description{
+	text-align: center;
+	font-size: 50px;
+}
